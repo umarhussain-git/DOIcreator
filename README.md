@@ -5,11 +5,10 @@ DOIcreator is an R package that helps you automatically add DOIs to references i
 ## Installation
 
 ```r
-# Install from CRAN (if published)
-install.packages("DOIcreator")
-
-# Or install from GitHub
-# remotes::install_github("username/DOIcreator")
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+remotes::install_github("umarhussain-git/DOIcreator")
 ```
 
 ## Load the Package
