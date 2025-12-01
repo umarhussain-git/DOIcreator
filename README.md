@@ -71,5 +71,8 @@ DOIcreator(input_file, output_file)
 This README provides step-by-step guidance for users to generate DOI-enriched references for manuscripts efficiently.
 
 # Maintainer 
+
 Umar Hussain
+Assistant professor, Orthodontics, 
+Saidu college of Dentistry
 drumarhussain@gmail.com
