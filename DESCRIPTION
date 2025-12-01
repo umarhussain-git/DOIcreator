@@ -1,0 +1,21 @@
+Package: DOIcreator
+Title: Append DOIs to References in Word Documents
+Version: 0.1.0
+Authors@R: 
+    person("Umar", "Hussain", email = "drumarhussain@gmail.com", role = c("aut", "cre"))
+Description: DOIcreator is an R package that reads Word documents containing bibliographic references,
+    searches for their corresponding DOIs via the CrossRef API, and appends the DOIs directly to the references.
+    It supports parallel processing for faster retrieval and outputs a new Word document with numbered references
+    including DOIs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    httr,
+    jsonlite,
+    officer
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

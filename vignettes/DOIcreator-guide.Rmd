@@ -1,0 +1,40 @@
+---
+title: "DOIcreator-guide"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{DOIcreator-guide}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# DOIcreator: Add DOIs to References in a Word (.docx) File
+
+```{r}
+# Load package
+library(DOIcreator)
+```
+
+
+# IMPORTANT:
+# 1. Create a separate Word file that contains ONLY your references.
+# 2. Save it on your computer, for example:
+#       "C:/folder/subfolder/file.docx"
+# 3. Choose a NEW output file name to avoid overwriting:
+#       "C:/folder/subfolder/file_doi.docx"
+#
+# NOTE:
+# • The created file will NOT have numbering.
+# • In Microsoft Word, press Ctrl+A and click the numbering icon to add numbers.
+# • Then copy the updated references into your manuscript.
+# • Always cross-check DOIs for accuracy.
+
+
+# ------------------------------------------------------------
+# Run the function see help(package="DOIcreator)
+# ------------------------------------------------------------
+
+
+# After running:
+# • Open file_doi.docx
+# • Add numbering in Word
+# • Paste into your manuscript
